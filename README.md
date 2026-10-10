@@ -1,6 +1,6 @@
 # Secure Code Generation with Reasoning Models
 
-This repository contains the code for the paper "Secure Code Generation with Reasoning Models". It supports dataset construction, model fine-tuning, and evaluation across three security-aware code generation benchmarks.
+This repository contains the code for the paper "SecPI: Secure Code Generation with Reasoning Models via Security Reasoning Internalization". It supports dataset construction, model fine-tuning, and evaluation across three security-aware code generation benchmarks.
 
 ## Setup
 
