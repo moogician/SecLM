@@ -1,0 +1,252 @@
+{
+    "20": {
+        "name": "Improper Input Validation",
+        "keywords": [
+            "input validation",
+            "validate",
+            "sanitize",
+            "type check",
+            "boundary check",
+            "range check",
+            "format validation"
+        ]
+    },
+    "22": {
+        "name": "Path Traversal",
+        "keywords": [
+            "path traversal",
+            "directory traversal",
+            "safe path",
+            "path validation"
+        ]
+    },
+    "78": {
+        "name": "OS Command Injection",
+        "keywords": [
+            "command injection"
+        ]
+    },
+    "79": {
+        "name": "Cross-site Scripting (XSS)",
+        "keywords": [
+            "xss",
+            "cross-site scripting",
+            "html escape",
+            "javascript injection",
+            "csp"
+        ]
+    },
+    "89": {
+        "name": "SQL Injection",
+        "keywords": [
+            "sql injection"
+        ]
+    },
+    "94": {
+        "name": "Code Injection",
+        "keywords": [
+            "code injection"
+        ]
+    },
+    "95": {
+        "name": "Eval Injection",
+        "keywords": [
+            "eval injection"
+        ]
+    },
+    "117": {
+        "name": "Improper Output Neutralization for Logs",
+        "keywords": [
+            "log injection",
+            "log forging",
+            "log sanitize",
+            "log escape"
+        ]
+    },
+    "119": {
+        "name": "Improper Restriction of Operations within Memory Buffer",
+        "keywords": [
+            "buffer overflow",
+            "memory buffer",
+            "bounds check",
+            "overflow",
+            "out of bounds"
+        ]
+    },
+    "120": {
+        "name": "Buffer Copy without Checking Size",
+        "keywords": [
+            "buffer overflow",
+            "buffer copy",
+            "size check"
+        ]
+    },
+    "125": {
+        "name": "Out-of-bounds Read",
+        "keywords": [
+            "out of bounds",
+            "bounds check",
+            "array access",
+            "buffer read",
+            "index validation",
+            "range check"
+        ]
+    },
+    "134": {
+        "name": "Use of Externally-Controlled Format String",
+        "keywords": [
+            "format string",
+            "controlled format"
+        ]
+    },
+    "190": {
+        "name": "Integer Overflow or Wraparound",
+        "keywords": [
+            "integer overflow",
+            "wraparound",
+            "overflow check",
+            "integer bounds",
+            "safe arithmetic"
+        ]
+    },
+    "284": {
+        "name": "Improper Access Control",
+        "keywords": [
+            "access control",
+            "authentication",
+            "authorization",
+            "permission",
+            "privilege",
+            "check permission"
+        ]
+    },
+    "327": {
+        "name": "Use of Broken or Risky Cryptographic Algorithm",
+        "keywords": [
+            "broken crypto",
+            "weak hash",
+            "deprecated",
+            "cryptographic algorithm",
+            "secure hash"
+        ]
+    },
+    "347": {
+        "name": "Improper Verification of Cryptographic Signature",
+        "keywords": [
+            "signature verification",
+            "verify signature",
+            "digital signature",
+            "signature check",
+            "crypto signature"
+        ]
+    },
+    "377": {
+        "name": "Insecure Temporary File",
+        "keywords": [
+            "temporary file",
+            "temp file",
+            "tmpfile",
+            "tempfile",
+            "secure temp"
+        ]
+    },
+    "400": {
+        "name": "Uncontrolled Resource Consumption",
+        "keywords": [
+            "resource",
+            "denial of service",
+            "dos",
+            "rate limit",
+            "throttle",
+            "timeout",
+            "limit",
+            "exhaustion",
+            "consumption"
+        ]
+    },
+    "476": {
+        "name": "NULL Pointer Dereference",
+        "keywords": [
+            "null pointer",
+            "null check",
+            "nullptr",
+            "null dereference",
+            "null validation",
+            "none check"
+        ]
+    },
+    "502": {
+        "name": "Deserialization of Untrusted Data",
+        "keywords": [
+            "deserialization",
+            "untrusted data",
+            "pickle",
+            "unserialize",
+            "object injection"
+        ]
+    },
+    "522": {
+        "name": "Insufficiently Protected Credentials",
+        "keywords": [
+            "credential",
+            "password",
+            "secret",
+            "api key",
+            "token",
+            "encrypt",
+            "bcrypt",
+            "plaintext",
+            "secure storage",
+            "environment variable"
+        ]
+    },
+    "703": {
+        "name": "Improper Check or Handling of Exceptional Conditions",
+        "keywords": [
+            "exception",
+            "error handling",
+            "try-catch",
+            "try-except",
+            "error check"
+        ]
+    },
+    "732": {
+        "name": "Incorrect Permission Assignment",
+        "keywords": [
+            "file permission",
+            "permission",
+            "access rights",
+            "file mode",
+            "umask",
+            "secure permission"
+        ]
+    },
+    "787": {
+        "name": "Out-of-bounds Write",
+        "keywords": [
+            "out of bounds",
+            "buffer write",
+            "bounds check",
+            "write overflow",
+            "array write",
+            "buffer overflow"
+        ]
+    },
+    "918": {
+        "name": "Server-Side Request Forgery (SSRF)",
+        "keywords": [
+            "ssrf",
+            "server-side request forgery",
+            "url validation",
+            "request validation"
+        ]
+    },
+    "1333": {
+        "name": "Inefficient Regular Expression Complexity",
+        "keywords": [
+            "regex dos",
+            "catastrophic backtracking",
+            "regex complexity"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+### model
+model_name_or_path: Qwen/QwQ-32B
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z3_offload_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+
+### dataset
+dataset: kodcode-v1
+template: qwq
+cutoff_len: 16384
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: sft_models/kodcode-v1-qwq
+logging_steps: 1
+save_steps: 100000000
+plot_loss: true
+
+### train
+save_only_model: True
+per_device_train_batch_size: 1
+batch_size: 48
+learning_rate: 1.0e-5
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+report_to: wandb
+run_name: KODCODE-V1-QwQ
+
